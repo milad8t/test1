@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="/assets/css/util.css">
@@ -13,10 +12,10 @@
 </head>
 
 <body>
-    <!-- /--------navbar sevtion--------start----->
+    <!-- /--------Home sevtion--------start----->
     <nav class=" amber">
         <div class="nav-wrapper">
-            <a href="#!" class="black-text hide-on-med-and-up">Home</a>
+            <a href="#!" class="black-text hide-on-med-and-up">user management</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class=" hide-on-med-and-down">
                 <li>
@@ -66,15 +65,29 @@
     <!-- /--------navbar sevtion--------end----->
 
 
-    <!-- /--------Home sevtion--------start----->
-    <section class="flex-c-m flex-col sizefull p-r-20 p-l-20">
-        <img src="assets/imege/Untitled-6 - Copy.jpg" alt="G tech" class="w-full max-w-25 m-t-7">
-        <a class="waves-effect waves-light btn yellow darken-2 w-full max-w-250 m-t-10 m-b-10 rounded-pill ">programmming tutorial</a>
-        <a href="/user.html" class="waves-effect waves-light btn yellow darken-2 w-full max-w-250 m-t-10 m-b-10 rounded-pill ">user manager</a>
+    <!-- /--------content sevtion--------start----->
+    <section id="top-actions-section">
     </section>
-    <!-- /--------Home sevtion--------end----->
-    <script src="/assets/materialize/js/materialize.min.js "></script>
-    <script src="/assets/js/app.js "></script>
+    <!-- ------add button----- -->
+    <div class="p-all-9">
+        <button class="waves-effect waves-light btn black yellow darken-2-text w-full p-l-30 p--30 m-t-10 flex-c rounded-pill ">
+            <i class="material-icons m-r-5">
+             add
+            </i> add user
+            </button>
+    </div>
+    <!-- ------search section----- -->
+    <div class="row">
+        <div class="input-field col s12">
+            <input id="search" type="text" class="validate">
+            <label for="search">
+                <i class="material-icons pos-relative top-7 ">search</i>
+                search</label>
+        </div>
+
+        <!-- /--------content sevtion--------end----->
+        <script src="/assets/materialize/js/materialize.min.js "></script>
+        <script src="/assets/js/app.js "></script>
 </body>
 
 </html>
