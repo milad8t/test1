@@ -10114,3 +10114,7 @@
 .rounded-pill {
     border-radius: 5rem;
 }
+
+.f_bold {
+    font-weight: bold;
+}

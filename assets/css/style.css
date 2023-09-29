@@ -1,0 +1,8 @@
+.users-list-item.active .users-list-arrow-icon {
+    transform: rotateX(180deg);
+}
+
+.users-list-item.active,
+.users-list-item.active .collapsible-header {
+    background-color: rgb(216, 211, 211);
+}
